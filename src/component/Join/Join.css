@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda&display=swap');
+.JoinPage {
+    background: #780206;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #061161, #780206);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #061161, #780206);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Sofia", sans-serif;
+}
+
+.JoinContainer {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.JoinContainer>img {
+    width: 5vmax;
+    height: 5vmax;
+}
+
+.JoinContainer>h1 {
+    font-size: 2vmax;
+    color: #ffA500;
+    font-weight: 800;
+    font-size: 2.5vmax;
+    width: 25vw;
+    border-bottom: 0.2vmax solid #ffA500;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.JoinContainer>h2 {
+    font-family: 'Bodoni Moda', serif;
+    padding-top: 2vmax;
+    color: #ffA500;
+    font-size: 18px;
+}
+
+#joinInput {
+    padding: 1.5vmax;
+    width: 25vw;
+    border: none;
+    outline: none;
+    font-size: 1.5vmax;
+    margin: 2vmax;
+    box-sizing: border-box;
+}
+
+.joinbtn {
+    width: 25vmax;
+    padding: 1.5vmax;
+    border: none;
+    outline: none;
+    font-size: 1.5vmax;
+    background: #b60707;
+    box-sizing: border-box;
+    transition: all 0.3s;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.joinbtn:hover {
+    background: #8B0000;
+    color: lavender;
+    /*#8B0000*/
+}
+
+@media only screen and (max-width: 1200px) {
+    .JoinContainer {
+        width: 100% !important;
+    }
+    .JoinContainer h1 {
+        font-size: 3vmax;
+        width: 25vw;
+    }
+    #joinInput {
+        padding: 1vmax;
+        width: 25vw;
+        font-size: 1.5vmax;
+    }
+    .joinbtn {
+        padding: 1vmax;
+        width: 25vmax;
+        font-size: 1.5vmax;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .JoinContainer {
+        width: 100% !important;
+    }
+    .JoinContainer h1 {
+        font-size: 6vmax;
+        width: 25vw;
+        padding: 1vmax;
+    }
+    #joinInput {
+        width: 35vmax;
+        box-sizing: border-box;
+    }
+    .joinbtn {
+        width: 35vmax;
+        box-sizing: border-box;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .JoinContainer {
+        width: 100% !important;
+    }
+    .JoinContainer h1 {
+        font-size: 6vmax;
+        width: 25vw;
+        padding: 1vmax;
+    }
+    #joinInput {
+        width: 35vmax;
+        box-sizing: border-box;
+    }
+    .joinbtn {
+        width: 35vmax;
+        box-sizing: border-box;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #joinInput {
+        font-size: 3vw;
+        width: 30vmax;
+    }
+    .joinbtn {
+        font-size: 3vw;
+        width: 30vmax;
+    }
+    .JoinContainer img {
+        width: 6vmax;
+    }
+    .JoinContainer h1 {
+        font-size: 4vmax;
+    }
+    .JoinContainer h2 {
+        font-size: 1.5vmax;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    #joinInput {
+        font-size: 5vw;
+        width: 30vmax;
+    }
+    .joinbtn {
+        font-size: 5vw;
+        width: 30vmax;
+    }
+    .JoinContainer h1 {
+        font-size: 4vmax;
+    }
+    .JoinContainer h2 {
+        font-size: 1.5vmax;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    #joinInput {
+        font-size: 4vw;
+        width: 26vmax;
+        display: flex;
+    }
+    .joinbtn {
+        font-size: 4vw;
+        width: 26vmax;
+    }
+    .JoinContainer h1 {
+        font-size: 4vmax;
+    }
+    .JoinContainer h2 {
+        font-size: 0.9vmax;
+    }
+}
